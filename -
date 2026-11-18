@@ -1,0 +1,10 @@
+local starterGui = game:GetService("StarterGui")
+pcall(function()
+    starterGui:SetCore("SendNotification", {
+        Title = "Creditos",
+        Text = "Itachi hub\nSebas exploits",
+        Duration = 5
+    })
+end)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sebas1234fg-crypto/Proyectos-finalizados/refs/heads/main/Itachi-hub"))()
